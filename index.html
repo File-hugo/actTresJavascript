@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validación de Formulario con Javascript</title>
+    <link rel="stylesheet" href="actTresJavascript.css">
+	<script defer src="actTresJavascript.js"></script>
+</head>
+<body>
+<main>
+		<div id="error"></div>
+		<form id="form" method="GET">
+			<!-- Grupo: Usuario -->  
+				<label for="usuario" class="formularioLabelUsuario">Usuario:
+					<input type="text" id="formulario__input__usuario" name="usuario" placeholder="usu@rio">
+				</label>
+			</div>
+			<!-- Grupo: Nombre -->
+				<div>
+				<label for="clave" class="formularioLabelClave">Clave:
+					<input type="password" id="formulario__input__clave" name="clave" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;">
+				</label>
+				</div>
+				<div class="checkboxText">
+					<label>Mostrar contraseña
+						<input type="checkbox" name="clave" id="clave">
+					</label>
+				</div>
+			</div>
+
+			<input type="submit"class="boton__enviar"value="Ingresar"></button>
+		</form>
+</main>
+
+</body>
+</html>
+
+

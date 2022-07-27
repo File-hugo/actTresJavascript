@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Verdana', sans-serif;
+	background: #E5E5E5;
+}
+
+main {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;                              
+	padding: 40px;
+}
+
+
+.formularioLabelUsuario{
+	position:absolute;
+	top:40px;
+	left:10px;
+}
+
+.formularioLabelClave{
+	position:absolute;
+	top:70px;
+	left:25px;
+}
+
+.checkboxText{
+	position:absolute;
+	top:100px;
+	left:72px;
+}
+
+
+.boton__enviar{
+	top:140px;
+    left:70px;
+	position:absolute;
+	box-shadow: 1px 1px gray;
+	text-shadow: -1px -1px rgba(0,0,0,.1);
+}
+
+::placeholder{
+	font-size:18px;
+}
+
